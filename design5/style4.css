@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: auto;
+}
+.grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  width: 100%;
+  height: 900px;
+}
+.grid div {
+  background-color: #eee;
+}
